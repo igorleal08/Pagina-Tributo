@@ -1,0 +1,98 @@
+#image {
+	max-width: 95%;
+	height: auto;
+	margin: 10px auto;
+	padding: 0;
+	border-radius: 8px;
+	display: block;
+
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Galindo', sans-serif;
+	color: #6454ad;
+	display: flex;
+	background-color: #f5d5ea;
+}
+
+main {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #9f5b8e;
+	text-decoration: none;
+}
+
+li {
+	margin: 0 0.2rem;
+	padding: 0.2rem;
+	display: block;
+	font-size: 1.2em;
+}
+
+#little-note {
+	font-size: 0.9em;
+	text-align: center;
+}
+
+h1 {
+	font-size: 3em;
+	text-align: center;
+	margin: 0;
+}
+
+h2 {
+	font-size: 1.5em;
+	text-align: center;
+	padding: 10px 0 5px 0;
+}
+
+h3 {
+	font-size: 1em;
+	text-align: center;
+}
+
+legend {
+	font-size: 1.1em;
+	text-align: center;
+}
+
+footer {
+	background-color: #a2d2fb;
+	margin: 1px auto;
+	padding: 10px;
+	border: 10px double;
+	border-radius: 15px;
+	color: #3955a0;
+}
+
+p {
+	font-size: 1.4em;
+	text-align: center;
+}
+
+#page-top {
+	border: 10px double;
+	border-radius: 15px;
+	padding: 10px 0;
+	background-color: #ffc2df;
+	margin: 0;
+}
+
+hr {
+	border-top: 5px dashed #6454ad;
+	width: 90%;
+	margin: 6px auto;
+}
+
+
+@media (min-width: 1050px) {
+	#image {
+		max-width: 55%;
+	}
+}
+
